@@ -32,79 +32,81 @@ body {
 
 /* Bar  */
 
-
-
 .bar-arr {
-    width: 20px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    margin-left: 2px;
-    vertical-align: middle;
+  width: 100px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  margin-left: 2px;
+  vertical-align: right;
+  color: 'blue'
+
 }
 
 .bar-arr-2 {
-    width: 20px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
-    margin-left: 2px;
-    vertical-align: middle;
+  width: 100px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  margin-left: 2px;
+  vertical-align: right;
+
+
 }
 
 /* Bar  End */
 
-.container{
-  display: inline-block;
-}
+
 
 
 /* Header */
-.header-ul{
+.header-ul {
 
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-list-style: none;
-padding:20px;
-
-}
-.header-ul-li-mergesort{
- padding-right: 10px;
-
-}
-
-.header-ul-container-algo{
   display: flex;
-justify-content: space-between;
-align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
 
 }
 
-.header-ul-li-sortingspeed{
+.header-ul-li-mergesort {
+  padding-left: 10px;
+  margin-right: auto
+}
+
+.header-ul-container-algo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header-ul-li-sortingspeed {
   display: flex;
   justify-content: space-between;
 
 }
 
-.header-ul-li-sortingspeed-h1{
-  margin-right: 20px; 
+.header-ul-li-sortingspeed-h1 {
+  margin-right: 20px;
   color: orange;
 
 }
-.header-ul-li-arraysize{
+
+.header-ul-li-arraysize {
   display: flex;
   justify-content: space-between;
 }
 
-.header-ul-li-arraysize-h1{
+.header-ul-li-arraysize-h1 {
   margin-right: 20px;
   color: orange;
 }
 
-.header-ul-li-algo-h1{
+.header-ul-li-algo-h1 {
   margin-right: 20px;
   color: orange;
 
 }
 
-.header-ul-li-mergesort-button{
+.header-ul-li-mergesort-button {
   background-color: purple;
   border: none;
   color: white;
@@ -112,7 +114,22 @@ align-items: center;
 }
 
 
-.header-ul-li-quicksort-button{
+.header-ul-li-quicksort-button {
+  background-color: purple;
+  border: none;
+  color: white;
+  cursor: pointer
+}
+
+
+.header-ul-li-selectionsort-button {
+  background-color: purple;
+  border: none;
+  color: white;
+  cursor: pointer
+}
+
+.header-ul-li-insertionsort-button {
   background-color: purple;
   border: none;
   color: white;
@@ -121,7 +138,7 @@ align-items: center;
 
 /* Header  End */
 
-.app-button-reset{
+.app-button-reset {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
@@ -134,12 +151,13 @@ align-items: center;
   cursor: pointer;
   transition: background-color 0.3s ease;
 
-}  
+}
+
 .app-button-reset:hover {
   background-color: #388e3c;
 }
 
-.app-button-sort{
+.app-button-sort {
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
@@ -153,6 +171,7 @@ align-items: center;
   transition: background-color 0.3s ease;
 
 }
+
 .app-button-sort:hover {
   background-color: #388e3c;
 }
